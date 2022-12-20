@@ -48,17 +48,6 @@ using namespace std;
 
             }
         }
-
-        /*if (in_file.is_open())
-        {
-            for (int i = 0; i < n;i++)
-            {
-                in_file >> fam_group1[i];
-                k++;
-            }
-            in_file.close();
-        }
-        */
         else
         {
             {
@@ -68,20 +57,10 @@ using namespace std;
             }
             cout << endl;
         }
-        cout << "\n";
         in_file.close();
 
         in_file.open("baz2.txt");
-        /*if (in_file.is_open())
-        {
-            for (int j = 0; j < 710; j++)
-            {
-                in_file >> fam_baza[j];
-                in_file >> numbers[j];
-                m = 0;
 
-            }
-        }*/
         if (in_file.is_open())
         {
             while (!in_file.eof())
@@ -98,42 +77,32 @@ using namespace std;
             cout << "No file: group.txt" << "\n";
             cout << "|||||||||||||||||||||||||||||||||||" << endl;
         }
-        cout << endl;
         string s1, s2;
-        char  word[20], A[80], * string, * adr, B[80];
-        for (int e = 0; e < n; e++)
+        out_file.open("file.txt", ios::out);
+        if (in_file.is_open())
         {
-            s1 = b[e].fam;
-            for (int h = 0; h < m; h++)
+            char  word[20], A[80], * string, * adr, B[80];
+            for (int e = 0; e < n; e++)
             {
-                s2 = c[h].fam_baza;
-               
-                if (s1.find(s2) != string::npos)
+                s1 = b[e].fam;
+                for (int h = 0; h < m; h++)
                 {
-               
-                    cout << c[h].fam_baza << " " << c[h].fiz << "\t";
-                  
-                }
+                    s2 = c[h].fam_baza;
 
-          
-            }
-            cout << endl;
-        }
+                    if (s1.find(s2) != string::npos)
+                    {
 
-    /*    for (i = 0; i < n; i++)
-        {
-            string = text[i];
-            adr = strstr(string, word);
-            if (adr != NULL)
-            {
-                if (adr == string || (*(adr - 1) == '_') && (*adr + strlen(word) == '_' || *adr + strlen(word) == '\0'))
-                {
-                    k = k + 1;
+                      out_file << c[h].fam_baza << " " << c[h].fiz << "\n";
+                      cout << c[h].fam_baza << " " << c[h].fiz << "\t";
+                    }
+
+
                 }
+                cout << endl;
             }
         }
-        */
-
+        else
+            cout << "File not Open";
 	return(0);
 }
  

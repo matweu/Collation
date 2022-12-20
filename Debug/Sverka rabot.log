@@ -1,10 +1,10 @@
 ﻿  Sverka rabot.cpp
-C:\Users\matwe\source\repos\Sverka rabot\Sverka rabot.cpp(103,49): warning C4101: B: неиспользованная локальная переменная
-C:\Users\matwe\source\repos\Sverka rabot\Sverka rabot.cpp(103,34): warning C4101: string: неиспользованная локальная переменная
 C:\Users\matwe\source\repos\Sverka rabot\Sverka rabot.cpp(40,13): warning C4101: numbers: неиспользованная локальная переменная
 C:\Users\matwe\source\repos\Sverka rabot\Sverka rabot.cpp(39,14): warning C4101: fam_baza: неиспользованная локальная переменная
-C:\Users\matwe\source\repos\Sverka rabot\Sverka rabot.cpp(103,25): warning C4101: A: неиспользованная локальная переменная
-C:\Users\matwe\source\repos\Sverka rabot\Sverka rabot.cpp(103,44): warning C4101: adr: неиспользованная локальная переменная
-C:\Users\matwe\source\repos\Sverka rabot\Sverka rabot.cpp(103,15): warning C4101: word: неиспользованная локальная переменная
 C:\Users\matwe\source\repos\Sverka rabot\Sverka rabot.cpp(38,14): warning C4101: fam_group1: неиспользованная локальная переменная
+C:\Users\matwe\source\repos\Sverka rabot\Sverka rabot.cpp(84,53): warning C4101: B: неиспользованная локальная переменная
+C:\Users\matwe\source\repos\Sverka rabot\Sverka rabot.cpp(84,38): warning C4101: string: неиспользованная локальная переменная
+C:\Users\matwe\source\repos\Sverka rabot\Sverka rabot.cpp(84,29): warning C4101: A: неиспользованная локальная переменная
+C:\Users\matwe\source\repos\Sverka rabot\Sverka rabot.cpp(84,48): warning C4101: adr: неиспользованная локальная переменная
+C:\Users\matwe\source\repos\Sverka rabot\Sverka rabot.cpp(84,19): warning C4101: word: неиспользованная локальная переменная
   Sverka rabot.vcxproj -> C:\Users\matwe\source\repos\Sverka rabot\Debug\Sverka rabot.exe
