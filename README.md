@@ -9,4 +9,4 @@ Collationr - Проект создавался для автоматизации
 'fstream' Нужна была для файлового ввода и вывода.
 'string'  Нужна была для работы со строками.
 </pre>
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Калькулятор+Матриц+на+C<plus><plus>)](https://git.io/typing-svg)![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
